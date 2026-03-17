@@ -86,40 +86,44 @@ export default function Home() {
             <div className="bg-gradient-to-br from-amber-50 to-orange-50 p-8 rounded-xl border border-amber-200">
               <div className="text-4xl mb-3">🍽️</div>
               <h3 className="text-2xl font-bold text-amber-950 mb-2">Stop 1: Appetizer</h3>
+              <p className="text-lg font-bold text-amber-700 mb-2">[Restaurant Name]</p>
               <p className="text-amber-800 mb-4">
-                Begin your journey with an expertly crafted appetizer portion, paired with a craft cocktail or beverage of choice.
+                [Description of cuisine and dish]. Paired with a craft cocktail or beverage of choice.
               </p>
-              <p className="text-sm text-amber-700">Small plate dining at its finest</p>
+              <p className="text-sm text-amber-700">Cuisine: [Type]</p>
             </div>
 
             {/* Stop 2 */}
             <div className="bg-gradient-to-br from-orange-50 to-red-50 p-8 rounded-xl border border-amber-200">
               <div className="text-4xl mb-3">🥘</div>
               <h3 className="text-2xl font-bold text-amber-950 mb-2">Stop 2: Main Course</h3>
+              <p className="text-lg font-bold text-amber-700 mb-2">[Restaurant Name]</p>
               <p className="text-amber-800 mb-4">
-                Experience the signature flavors of a second local favorite. Another appetizer portion and refreshing beverage await.
+                [Description of cuisine and dish]. Another appetizer portion and refreshing beverage await.
               </p>
-              <p className="text-sm text-amber-700">Handpicked restaurants, custom menus</p>
+              <p className="text-sm text-amber-700">Cuisine: [Type]</p>
             </div>
 
             {/* Stop 3 */}
             <div className="bg-gradient-to-br from-red-50 to-amber-50 p-8 rounded-xl border border-amber-200">
               <div className="text-4xl mb-3">🍤</div>
               <h3 className="text-2xl font-bold text-amber-950 mb-2">Stop 3: Savory Finale</h3>
+              <p className="text-lg font-bold text-amber-700 mb-2">[Restaurant Name]</p>
               <p className="text-amber-800 mb-4">
-                One more culinary highlight before we head to dessert. A third appetizer portion and cocktail round out the experience.
+                [Description of cuisine and dish]. A third appetizer portion and cocktail round out the experience.
               </p>
-              <p className="text-sm text-amber-700">Local chefs, seasonal ingredients</p>
+              <p className="text-sm text-amber-700">Cuisine: [Type]</p>
             </div>
 
             {/* Stop 4 */}
             <div className="bg-gradient-to-br from-amber-50 to-yellow-50 p-8 rounded-xl border border-amber-200">
               <div className="text-4xl mb-3">🍰</div>
               <h3 className="text-2xl font-bold text-amber-950 mb-2">Stop 4: Sweet Ending</h3>
+              <p className="text-lg font-bold text-amber-700 mb-2">[Dessert Destination]</p>
               <p className="text-amber-800 mb-4">
-                Finish strong at a dessert destination featuring sweet treats and coffee or your choice of beverage.
+                [Description of desserts and beverages]. The perfect way to end the tour.
               </p>
-              <p className="text-sm text-amber-700">The perfect way to end the tour</p>
+              <p className="text-sm text-amber-700">Cuisine: [Type]</p>
             </div>
           </div>
 
