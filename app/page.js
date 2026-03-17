@@ -15,14 +15,13 @@ export default function Home() {
 
   const [submitted, setSubmitted] = useState(false);
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
+  const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData(prev => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // In production, this would send to an email service or database
     console.log('Booking request:', formData);
     setSubmitted(true);
     setTimeout(() => setSubmitted(false), 5000);
@@ -268,7 +267,7 @@ export default function Home() {
                 value={formData.notes}
                 onChange={handleChange}
                 className="w-full px-4 py-3 border border-amber-200 rounded-lg focus:outline-none focus:border-amber-600 resize-none"
-                rows={4}
+                rows="4"
                 placeholder="Dietary restrictions, special occasions, vibe you're looking for..."
               />
             </div>
